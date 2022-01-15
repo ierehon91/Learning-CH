@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentsLearning", "Argume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandartTypes", "StandartTypes\StandartTypes.csproj", "{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifis", "ifis\ifis.csproj", "{9B5DFD9D-23D4-4697-BB03-E434D3E3F7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5DFD9D-23D4-4697-BB03-E434D3E3F7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5DFD9D-23D4-4697-BB03-E434D3E3F7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5DFD9D-23D4-4697-BB03-E434D3E3F7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5DFD9D-23D4-4697-BB03-E434D3E3F7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
