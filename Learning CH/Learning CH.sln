@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleAndDecimal", "DoubleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayLearning", "ArrayLearning\ArrayLearning.csproj", "{CED9F225-72C0-46D2-A085-01B3DBA8CBEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHanding", "NullHanding\NullHanding.csproj", "{F9A0215B-1811-4058-A0CD-90DF7A42452A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CED9F225-72C0-46D2-A085-01B3DBA8CBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED9F225-72C0-46D2-A085-01B3DBA8CBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED9F225-72C0-46D2-A085-01B3DBA8CBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A0215B-1811-4058-A0CD-90DF7A42452A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A0215B-1811-4058-A0CD-90DF7A42452A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A0215B-1811-4058-A0CD-90DF7A42452A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A0215B-1811-4058-A0CD-90DF7A42452A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
