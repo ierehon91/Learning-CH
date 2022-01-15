@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintTriangle", "PrintTrian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsHomework", "MethodsHomework\MethodsHomework.csproj", "{D90B1C01-BBAF-448E-9DAF-49C9D68DAD1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastTest", "fastTest\fastTest.csproj", "{16A63677-D9B8-4FF9-9082-D85B96BACC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{D90B1C01-BBAF-448E-9DAF-49C9D68DAD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90B1C01-BBAF-448E-9DAF-49C9D68DAD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90B1C01-BBAF-448E-9DAF-49C9D68DAD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A63677-D9B8-4FF9-9082-D85B96BACC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A63677-D9B8-4FF9-9082-D85B96BACC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A63677-D9B8-4FF9-9082-D85B96BACC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A63677-D9B8-4FF9-9082-D85B96BACC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
