@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKeyLearning", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentsLearning", "ArgumentsLearning\ArgumentsLearning.csproj", "{C787C3F5-69E9-48EC-8C3B-F3B2E6421D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandartTypes", "StandartTypes\StandartTypes.csproj", "{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C787C3F5-69E9-48EC-8C3B-F3B2E6421D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C787C3F5-69E9-48EC-8C3B-F3B2E6421D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C787C3F5-69E9-48EC-8C3B-F3B2E6421D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311ED64C-2D10-42CA-AEB0-B19E3EEF7615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
