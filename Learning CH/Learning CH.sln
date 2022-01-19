@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsHomework", "MethodsH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fastTest", "fastTest\fastTest.csproj", "{16A63677-D9B8-4FF9-9082-D85B96BACC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullLearning", "NullLearning\NullLearning.csproj", "{D427F01B-B3AA-46DE-B38A-6BDD00EA9430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullLearning", "NullLearning\NullLearning.csproj", "{D427F01B-B3AA-46DE-B38A-6BDD00EA9430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencTypesHomework", "ReferencTypesHomework\ReferencTypesHomework.csproj", "{32DC1B70-9624-4A42-9A9A-1D96544C9B74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{D427F01B-B3AA-46DE-B38A-6BDD00EA9430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D427F01B-B3AA-46DE-B38A-6BDD00EA9430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D427F01B-B3AA-46DE-B38A-6BDD00EA9430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DC1B70-9624-4A42-9A9A-1D96544C9B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DC1B70-9624-4A42-9A9A-1D96544C9B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DC1B70-9624-4A42-9A9A-1D96544C9B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DC1B70-9624-4A42-9A9A-1D96544C9B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
