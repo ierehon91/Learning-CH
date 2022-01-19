@@ -11,12 +11,21 @@ namespace ReferencTypesHomework
             AddLastElimentToArray(ref myArray, 4);
             AddFirstElimentToArray(ref myArray, 50);
             AddElimentToArray(ref myArray, -5, 2);
-            foreach (int i in myArray)
+            DeleteFirstElimentInArray(ref myArray);
+            DeleteLastElimentInArray(ref myArray);
+
+            int[] myArray2 = { 1, 2, 3 };
+            DeleteElimentInArray(ref myArray2, 1);
+
+
+            foreach (int i in myArray2)
             {
                 Console.WriteLine(i);
             }
 
         }
+
+        // 1. Написать метод Resize изменяющий количество элементов массива (метод должен иметь возможность увеличить или уменьшить колличество элементов массива).
 
         /// <summary>
         /// Метод Resize изменяет количество элементов массива.
@@ -45,6 +54,9 @@ namespace ReferencTypesHomework
             }
             array = newArray;
         }
+
+
+        // 2. Написать метод для добавления элемента в начало массива, в конец массива и по указанному индексу.
 
         static void AddLastElimentToArray(ref int[] array, int value)
         {
@@ -78,6 +90,34 @@ namespace ReferencTypesHomework
             i += 1;
             for (; i < newArray.Length; i++) newArray[i] = array[i - 1];
 
+            array = newArray;
+        }
+
+        // 3. Написать метод для удаления первого элемента массива, последнего элемента массиваи элемента по указанному индексу.
+
+        static void DeleteFirstElimentInArray(ref int[] array)
+        {
+            int[] newArray = new int[array.Length - 1];
+            for (int i = 0; i < newArray.Length; i++)
+                newArray[i] = array[i + 1];
+            array = newArray;
+        }
+
+        static void DeleteLastElimentInArray(ref int[] array)
+        {
+            int[] newArray = new int[array.Length - 1];
+            for (int i = 0; i < newArray.Length; i++)
+                newArray[i] = array[i];
+            array = newArray;
+        }
+
+        static void DeleteElimentInArray(ref int[] array, uint index)
+        {
+            int[] newArray = new int[array.Length - 1];
+
+            int i = 0;
+            for (; i < index; i++) newArray[i] = array[i];
+            for (; i < newArray.Length; i++) newArray[i] = array[i + 1];
             array = newArray;
         }
 
