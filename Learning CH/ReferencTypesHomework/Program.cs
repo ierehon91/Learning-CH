@@ -7,18 +7,20 @@ namespace ReferencTypesHomework
         static void Main(string[] args)
         {
             int[] myArray = { 1, 2, 3 };
-            Resize(ref myArray, true, 1);
+            Resize(ref myArray, 1);
+            /*
             AddLastElimentToArray(ref myArray, 4);
             AddFirstElimentToArray(ref myArray, 50);
             AddElimentToArray(ref myArray, -5, 2);
             DeleteFirstElimentInArray(ref myArray);
             DeleteLastElimentInArray(ref myArray);
+            */
 
             int[] myArray2 = { 1, 2, 3 };
             DeleteElimentInArray(ref myArray2, 1);
 
 
-            foreach (int i in myArray2)
+            foreach (int i in myArray)
             {
                 Console.WriteLine(i);
             }
@@ -33,7 +35,7 @@ namespace ReferencTypesHomework
         /// <param name="array">Метод в котором необходимо изменить размер.</param>
         /// <param name="isAddIndex">true - для добавления элементов массива (false - для удаления).</param>
         /// <param name="countIndex">Число элементов, которые необходимо добавить/удалить</param>
-        static void Resize(ref int[] array, bool isAddIndex, int countIndex)
+        static void OldResize(ref int[] array, bool isAddIndex, int countIndex)
         {
             int[] newArray;
             if (isAddIndex == true)
@@ -51,6 +53,26 @@ namespace ReferencTypesHomework
                     return;
                 }
                 for (int i = 0; i < newArray.Length; i++) newArray[i] = array[i];
+            }
+            array = newArray;
+        }
+
+        static void Resize(ref int[] array, uint newLength)
+        {
+            int[] newArray = new int[newLength];
+            if (newLength >= array.Length)
+            {
+                for(int i = 0; i < array.Length; i++)
+                {
+                    newArray[i] = array[i];
+                }
+            }
+            else
+            {
+                for (int i = 0; i < newArray.Length; i++)
+                {
+                    newArray[i] = array[i];
+                }
             }
             array = newArray;
         }
