@@ -6,8 +6,9 @@ namespace ReferencTypesHomework
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 1, 2, 3 };
-            Resize(ref myArray, 1);
+            //int[] myArray = { 1, 2, 3 };
+            string[] myArray = { "string", "test", "array" };
+            Resize(ref myArray, 5);
             /*
             AddLastElimentToArray(ref myArray, 4);
             AddFirstElimentToArray(ref myArray, 50);
@@ -20,9 +21,9 @@ namespace ReferencTypesHomework
             DeleteElimentInArray(ref myArray2, 1);
 
 
-            foreach (int i in myArray)
+            for (int i = 0; i < myArray.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(myArray[i]);
             }
 
         }
@@ -57,9 +58,9 @@ namespace ReferencTypesHomework
             array = newArray;
         }
 
-        static void Resize(ref int[] array, uint newLength)
+        static void Resize<T>(ref T[] array, uint newLength)
         {
-            int[] newArray = new int[newLength];
+            T[] newArray = new T[newLength];
             if (newLength >= array.Length)
             {
                 for(int i = 0; i < array.Length; i++)
