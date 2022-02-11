@@ -81,9 +81,9 @@ namespace ReferencTypesHomework
 
         // 2. Написать метод для добавления элемента в начало массива, в конец массива и по указанному индексу.
 
-        static void AddLastElimentToArray(ref int[] array, int value)
+        static void AddLastElimentToArray<T>(ref T[] array, T value)
         {
-            int[] newArray = new int[array.Length + 1];
+            T[] newArray = new T[array.Length + 1];
             for (int i = 0; i < array.Length; i++)
             {
                 newArray[i] = array[i];
@@ -92,9 +92,9 @@ namespace ReferencTypesHomework
             array = newArray;
         }
 
-        static void AddFirstElimentToArray(ref int[] array, int value)
+        static void AddFirstElimentToArray<T>(ref T[] array, T value)
         {
-            int[] newArray = new int[array.Length + 1];
+            T[] newArray = new T[array.Length + 1];
             newArray[0] = value;
             for (int i = 0; i < array.Length; i++)
             {
@@ -103,16 +103,15 @@ namespace ReferencTypesHomework
             array = newArray;
         }
 
-        static void AddElimentToArray(ref int[] array, int value, int index)
+        static void AddElimentToArray<T>(ref T[] array, T value, uint index)
         {
-            int[] newArray = new int[array.Length + 1];
+            T[] newArray = new T[array.Length + 1];
 
             int i = 0;
             for (; i < index; i++) newArray[i] = array[i];
             newArray[i] = value;
             i += 1;
             for (; i < newArray.Length; i++) newArray[i] = array[i - 1];
-
             array = newArray;
         }
 
