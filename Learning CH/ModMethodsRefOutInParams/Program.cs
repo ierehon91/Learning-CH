@@ -13,6 +13,9 @@ namespace ModMethodsRefOutInParams
             Console.WriteLine($"b : {b}");
 
             Console.WriteLine(ParamsMod(10, 15, 1));
+
+            int sum = Sum(b: 3, a: 6, enableLog: true);
+            Console.WriteLine(sum);
             
         }
 
@@ -48,6 +51,17 @@ namespace ModMethodsRefOutInParams
                 sum += parameters[i];
             }
             return sum;
+        }
+
+        static int Sum(int a, int b, bool enableLog = false)
+        {
+            int result = a + b;
+
+            if(enableLog)
+            {
+                Console.WriteLine($"{a} + {b} = {result}");
+            }
+            return result;
         }
     }
 }
