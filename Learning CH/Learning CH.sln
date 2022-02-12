@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencTypesHomework", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModMethodsRefOutInParams", "ModMethodsRefOutInParams\ModMethodsRefOutInParams.csproj", "{9BFB455D-4B39-43C0-9B18-1E23020387F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{102352C9-DC25-45CE-A172-16FA18D39C86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{9BFB455D-4B39-43C0-9B18-1E23020387F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BFB455D-4B39-43C0-9B18-1E23020387F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BFB455D-4B39-43C0-9B18-1E23020387F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102352C9-DC25-45CE-A172-16FA18D39C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102352C9-DC25-45CE-A172-16FA18D39C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102352C9-DC25-45CE-A172-16FA18D39C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102352C9-DC25-45CE-A172-16FA18D39C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

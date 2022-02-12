@@ -55,6 +55,7 @@ namespace ModMethodsRefOutInParams
 
         static int Sum(int a, int b, bool enableLog = false)
         {
+            // Параметры по умолчанию и именнованные параметры
             int result = a + b;
 
             if(enableLog)
