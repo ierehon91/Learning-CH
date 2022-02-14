@@ -12,48 +12,60 @@ namespace Recursion
         static void Main(string[] args)
         {
             int[] myArray = { 1, 2, 3, 4, 5, 6 };
-            int index = 0;
-            PrintRecursion(myArray, ref index);  // вывод массива с помощью рекурсии
+            int value = 125;
 
-            index = 0;
-            int sum = 0;
-            int sumArray = SumRecursion(myArray, ref index, ref sum); // сумма элементов массива с помощью рекурсии
-            Console.WriteLine(sumArray);
-
-            int value = 555;
-            index = 0;
-            int sumDigital = 0;
-            Console.WriteLine(SumDigital(value, ref index, ref sumDigital));
+            PrintRecursion(myArray);  // вывод массива с помощью рекурсии
+            Console.WriteLine("Сумма элементов массива: " + SumRecursion(myArray));  // сумма элементов массива с помощью рекурсии
+            Console.WriteLine($"Сумма цифр числа {value}: {SumDigital(value)}"); // сумма цифр числа с помощью рекурсии
         }
 
 
         // Реолизовать вывод массива с помощью рекурсии.
-        static void PrintRecursion(int[] array, ref int i)
+        static void PrintRecursion(int[] array)
         {
-            if (i < array.Length)
+            Console.Write("Массив: ");
+            int i = 0;
+            DoPrintRecursion(array, ref i);
+
+            static void DoPrintRecursion(int[] array, ref int i)
             {
-                Console.WriteLine(array[i]);
-                i++;
-                PrintRecursion(array, ref i);
+                if (i < array.Length)
+                {
+                    Console.Write(array[i] + " ");
+                    i++;
+                    DoPrintRecursion(array, ref i);
+                }
             }
+            Console.WriteLine();
         }
 
         // Найти сумму элементов массива с помощью рекурсии.
-        static int SumRecursion(int[] array, ref int i, ref int sum)
+        static int SumRecursion(int[] array)
         {
-            sum += array[i];
-            i++;
-            if (i < array.Length)
+            int i = 0;
+            int sum = 0;
+            CalculateSumRecursion(array, ref i, ref sum);
+
+            static void CalculateSumRecursion(int[] array, ref int i, ref int sum)
             {
-                SumRecursion(array, ref i, ref sum);
+                sum += array[i];
+                i++;
+                if (i < array.Length)
+                {
+                    CalculateSumRecursion(array, ref i, ref sum);
+                }
             }
+            
             return sum;
         }
 
         // Найти сумму цифр числа с помощью рекурсии.
-        static int SumDigital(int value, ref int i, ref int sumDigital)
+        static int SumDigital(int value)
         {
             string stringValue = value.ToString();
+            int i = 0;
+            int sumDigital = 0;
+
             CalculateSumDigital(stringValue, ref i, ref sumDigital);
 
             static void CalculateSumDigital(string value, ref int i, ref int sumDigital)
