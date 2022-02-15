@@ -17,6 +17,7 @@ namespace Recursion
             PrintRecursion(myArray);  // вывод массива с помощью рекурсии
             Console.WriteLine("Сумма элементов массива: " + SumRecursion(myArray));  // сумма элементов массива с помощью рекурсии
             Console.WriteLine($"Сумма цифр числа {value}: {SumDigital(value)}"); // сумма цифр числа с помощью рекурсии
+            Console.WriteLine($"Сумма цифр числа (альтернативный способ) {value}: {SumDigital(value)}"); // сумма цифр числа с помощью рекурсии
         }
 
 
@@ -81,5 +82,16 @@ namespace Recursion
             return sumDigital;
         }
 
+        static int SumDigital2(int value)
+        {
+            if (value < 10)
+            {
+                return value;
+            }
+
+            int dig = value % 10;
+            int nextValue = value / 10;
+            return nextValue + SumDigital2(nextValue);
+        }
     }
 }
