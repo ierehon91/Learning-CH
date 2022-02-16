@@ -10,5 +10,15 @@ namespace ClassLearning
         public string name;
         public int age;
         public string group;
+
+        public void Print()
+        {
+            Console.WriteLine("id: " + id);
+            Console.WriteLine("ФИО: " + name);
+            Console.WriteLine("Возраст: " + age);
+            Console.WriteLine("Группа: " + group);
+        }
     }
+
+    
 }
