@@ -8,6 +8,17 @@ namespace ClassLearning
         {
             var firstStudent = GetStudent();
             firstStudent.Print();
+
+            // Создадим экземляр класса Car
+            Car myCar = new Car();
+            myCar.GoUp();
+            myCar.PrintSpeed();
+            myCar.Stop();
+            myCar.PrintSpeed();
+
+            Car myCar2 = new Car();
+            myCar2.GoBack();
+            myCar2.PrintSpeed();
         }
 
         static Student GetStudent()
