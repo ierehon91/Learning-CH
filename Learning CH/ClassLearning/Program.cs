@@ -19,6 +19,9 @@ namespace ClassLearning
             Car myCar2 = new Car();
             myCar2.GoBack();
             myCar2.PrintSpeed();
+
+            Point point = new Point(x: 10, y: 16);
+            point.Print();
         }
 
         static Student GetStudent()
