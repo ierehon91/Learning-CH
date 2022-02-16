@@ -20,8 +20,14 @@ namespace ClassLearning
             myCar2.GoBack();
             myCar2.PrintSpeed();
 
-            Point point = new Point(x: 10, y: 16);
+            Point point = new Point();
             point.Print();
+
+            Point point2 = new Point(x: 10, y: 16);
+            point2.Print();
+
+            Point point3 = new Point(point2); // скопировали параметры из объекта point2 в point3
+            point3.Print();
         }
 
         static Student GetStudent()
