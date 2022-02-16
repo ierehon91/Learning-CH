@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullLearning", "NullLearnin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencTypesHomework", "ReferencTypesHomework\ReferencTypesHomework.csproj", "{32DC1B70-9624-4A42-9A9A-1D96544C9B74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModMethodsRefOutInParams", "ModMethodsRefOutInParams\ModMethodsRefOutInParams.csproj", "{9BFB455D-4B39-43C0-9B18-1E23020387F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModMethodsRefOutInParams", "ModMethodsRefOutInParams\ModMethodsRefOutInParams.csproj", "{9BFB455D-4B39-43C0-9B18-1E23020387F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{102352C9-DC25-45CE-A172-16FA18D39C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recursion.csproj", "{102352C9-DC25-45CE-A172-16FA18D39C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumLearning", "EnumLearning\EnumLearning.csproj", "{35CB21F9-DC4B-4CF6-A7C0-7C291157BB6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{102352C9-DC25-45CE-A172-16FA18D39C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102352C9-DC25-45CE-A172-16FA18D39C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{102352C9-DC25-45CE-A172-16FA18D39C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CB21F9-DC4B-4CF6-A7C0-7C291157BB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CB21F9-DC4B-4CF6-A7C0-7C291157BB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CB21F9-DC4B-4CF6-A7C0-7C291157BB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CB21F9-DC4B-4CF6-A7C0-7C291157BB6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
