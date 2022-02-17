@@ -28,6 +28,9 @@ namespace ClassLearning
 
             Point point3 = new Point(point2); // скопировали параметры из объекта point2 в point3
             point3.Print();
+
+            Point point4 = new Point(x: 1, y:2, z: 3);
+            point4.Print();
         }
 
         static Student GetStudent()
