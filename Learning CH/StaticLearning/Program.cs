@@ -23,6 +23,15 @@ namespace StaticLearning
 
             Point.S = 250;
             Console.WriteLine(Point.S);
+
+            Console.WriteLine("\nСчитаем количество экземпляров класса CounterObjects: ");
+            Console.WriteLine(CounterObjects.Counter); // 0
+            CounterObjects object_1 = new CounterObjects();
+            CounterObjects object_2 = new CounterObjects();
+            Console.WriteLine(CounterObjects.Counter); // 2
+            CounterObjects object_3 = new CounterObjects();
+            Console.WriteLine(CounterObjects.Counter); // 3
+
         }
     }
 }
