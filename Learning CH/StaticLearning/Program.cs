@@ -32,6 +32,11 @@ namespace StaticLearning
             CounterObjects object_3 = new CounterObjects();
             Console.WriteLine(CounterObjects.Counter); // 3
 
+            DataBaseConnected connect1 = new DataBaseConnected();
+            connect1.PrintUrlHash();
+            DataBaseConnected connect2 = new DataBaseConnected();
+            connect2.PrintUrlHash();
+
         }
     }
 }
