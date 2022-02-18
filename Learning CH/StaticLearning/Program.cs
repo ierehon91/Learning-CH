@@ -1,4 +1,5 @@
 ﻿using System;
+using MyExtencion;
 
 namespace StaticLearning
 {
@@ -36,6 +37,10 @@ namespace StaticLearning
             connect1.PrintUrlHash();
             DataBaseConnected connect2 = new DataBaseConnected();
             connect2.PrintUrlHash();
+
+            DateTime currentDateTime = DateTime.Now;
+            currentDateTime.Print();
+            Console.WriteLine(currentDateTime.isDayOfWeek(DayOfWeek.Friday));
 
         }
     }
