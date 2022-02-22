@@ -29,6 +29,11 @@ namespace Inheritance
                 student1
             };
             PrintAllPersons(persons);
+
+            Console.WriteLine("*********");
+
+            Point3D point = new Point3D(10, 2, 8);
+            point.Print3D();
         }
 
         static void PrintUpperFullName(Person person)
