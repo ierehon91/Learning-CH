@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLearning", "StaticLea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialLearning", "PartialLearning\PartialLearning.csproj", "{17ECE403-93E9-41A9-A6DD-94B6405DB61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstAndReadOnly", "ConstAndReadOnly\ConstAndReadOnly.csproj", "{528517BD-5570-405B-A2DE-899DB133FB4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstAndReadOnly", "ConstAndReadOnly\ConstAndReadOnly.csproj", "{528517BD-5570-405B-A2DE-899DB133FB4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitObject", "InitObject\InitObject.csproj", "{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitObject", "InitObject\InitObject.csproj", "{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{26818A74-3D6B-4C03-BA60-65D178DA93FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26818A74-3D6B-4C03-BA60-65D178DA93FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26818A74-3D6B-4C03-BA60-65D178DA93FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26818A74-3D6B-4C03-BA60-65D178DA93FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26818A74-3D6B-4C03-BA60-65D178DA93FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +192,7 @@ Global
 		{17ECE403-93E9-41A9-A6DD-94B6405DB61B} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
 		{528517BD-5570-405B-A2DE-899DB133FB4C} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
 		{E96DA6DE-89E5-4CAB-9C1B-FB55B12973B2} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
+		{26818A74-3D6B-4C03-BA60-65D178DA93FA} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4591EBDF-6A57-46FE-8694-2FA0B4E6A9C6}
