@@ -34,6 +34,25 @@ namespace Inheritance
 
             Point3D point = new Point3D(10, 2, 8);
             point.Print3D();
+
+            Console.WriteLine("*********");
+            Console.WriteLine("Ключивые слова as is");
+
+            object point_obj = new Point2D(10, 15);
+
+            if (point_obj is Point2D _point)
+            {
+                _point.Print2D();
+            }
+
+            // или можно использовать:
+
+            Point2D __point = point_obj as Point2D;
+
+            if (__point != null)
+            {
+                __point.Print2D();
+            }
         }
 
         static void PrintUpperFullName(Person person)
