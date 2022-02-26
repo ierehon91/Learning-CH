@@ -59,9 +59,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_protected_mod", "Inheritance_protected_mod\Inheritance_protected_mod.csproj", "{058D1EE4-FAB5-4FCE-A6FF-E748131BFEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{36167597-EC3D-4633-9273-A9EE0310F198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{36167597-EC3D-4633-9273-A9EE0310F198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractCalass", "AbstractCalass\AbstractCalass.csproj", "{66F9797A-3424-48A6-89B3-93D239F2F36D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractCalass", "AbstractCalass\AbstractCalass.csproj", "{66F9797A-3424-48A6-89B3-93D239F2F36D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "! DiffProjects", "! DiffProjects", "{6300B01B-B5D4-4DCC-AA6E-A2E971D74906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{09F103BF-018A-499D-872B-73F08F58163D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +185,10 @@ Global
 		{66F9797A-3424-48A6-89B3-93D239F2F36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F9797A-3424-48A6-89B3-93D239F2F36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F9797A-3424-48A6-89B3-93D239F2F36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F103BF-018A-499D-872B-73F08F58163D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F103BF-018A-499D-872B-73F08F58163D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F103BF-018A-499D-872B-73F08F58163D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F103BF-018A-499D-872B-73F08F58163D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -214,6 +222,7 @@ Global
 		{058D1EE4-FAB5-4FCE-A6FF-E748131BFEE3} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
 		{36167597-EC3D-4633-9273-A9EE0310F198} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
 		{66F9797A-3424-48A6-89B3-93D239F2F36D} = {F42C3564-A13E-49F6-ACA8-415F922531A2}
+		{09F103BF-018A-499D-872B-73F08F58163D} = {6300B01B-B5D4-4DCC-AA6E-A2E971D74906}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4591EBDF-6A57-46FE-8694-2FA0B4E6A9C6}
