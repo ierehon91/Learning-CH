@@ -1,0 +1,16 @@
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.csproj.AssemblyReference.cache
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.AssemblyInfoInputs.cache
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.AssemblyInfo.cs
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.csproj.CoreCompileInputs.cache
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.exe
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.deps.json
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.runtimeconfig.json
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.runtimeconfig.dev.json
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.dll
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\JSONLearning.pdb
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.dll
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.pdb
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.genruntimeconfig.cache
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Development\C#\Learning-CH\Learning CH\JSONLearning\obj\Debug\netcoreapp3.1\JSONLearning.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.exe
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.deps.json
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.runtimeconfig.json
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.runtimeconfig.dev.json
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.dll
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\bin\Debug\netcoreapp3.1\InterfaceLearning.pdb
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.csproj.AssemblyReference.cache
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.AssemblyInfoInputs.cache
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.AssemblyInfo.cs
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.csproj.CoreCompileInputs.cache
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.dll
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.pdb
+C:\Development\C#\Learning-CH\Learning CH\InterfaceLearning\obj\Debug\netcoreapp3.1\InterfaceLearning.genruntimeconfig.cache
